@@ -150,4 +150,4 @@ All transactions require a fee to be included in a block. This prevents spam and
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -3,7 +3,10 @@ name = "my_blockchain"
 version = "0.1.0"
 edition = "2021"
 description = "A simple blockchain implementation with REST API"
-authors = ["Your Name"]
+authors = ["Andrew Tran"]
+license = "MIT"
+repository = "https://github.com/anvuive456/my_blockchain"
+readme = "README.md"
 
 [dependencies]
 # Serialization
