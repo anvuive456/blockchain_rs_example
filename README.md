@@ -36,13 +36,17 @@ my_blockchain/
 
 ## API Endpoints
 
-| Method | Endpoint                     | Description                      |
-| ------ | ---------------------------- | -------------------------------- |
-| GET    | /api/v1/chain                | Get the full blockchain          |
-| GET    | /api/v1/transactions/pending | Get all pending transactions     |
-| POST   | /api/v1/transactions/new     | Create a new transaction         |
-| POST   | /api/v1/mine                 | Mine a new block                 |
-| GET    | /api/v1/validate             | Check if the blockchain is valid |
+| Method | Endpoint                         | Description                      |
+| ------ | -------------------------------- | -------------------------------- |
+| GET    | /api/v1/accounts                 | Get the full accounts            |
+| GET    | /api/v1/chain                    | Get the full blockchain          |
+| GET    | /api/v1/transactions/pending     | Get all pending transactions     |
+| POST   | /api/v1/transactions/new         | Create a new transaction         |
+| POST   | /api/v1/mine                     | Mine a new block                 |
+| GET    | /api/v1/validate                 | Check if the blockchain is valid |
+| POST   | /api/v1/wallet/new               | Create a new wallet              |
+| POST   | /api/v1/wallet/fund              | Fund a wallet                    |
+| GET    | /api/v1/wallet/balance/{address} | Get the balance of a wallet      |
 
 ## Getting Started
 
@@ -55,7 +59,7 @@ my_blockchain/
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/my_blockchain.git
+   git clone https://github.com/anvuive456/my_blockchain.git
    cd my_blockchain
    ```
 
